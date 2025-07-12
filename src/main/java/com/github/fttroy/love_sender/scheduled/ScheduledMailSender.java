@@ -22,7 +22,7 @@ public class ScheduledMailSender {
     @Autowired
     private MailService emailService;
 
-    @Scheduled(cron = "0 24 19 * * *", zone = "Europe/Rome")
+    @Scheduled(cron = "${scheduled.cron.morning-time}", zone = "Europe/Rome")
     private void sentMailInMorning(){
         sendScheduledEmail();
     }
