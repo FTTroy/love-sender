@@ -1,0 +1,6 @@
+MONGODB_URI: mongodb+srv://admin:Jk2fKXahXAYFU3zC@reminder.repfpxc.mongodb.net/reminder?retryWrites=true&w=majority&appName=reminder
+RECEIVER_MAIL: troianofrancesco01@gmail.com
+SENDER_MAIL: springprojectservice@gmail.com
+MAIL_PASSWORD: zcxrquudrhozpked
+MORNING_SEND_TIME: "0 0 8 * * *"
+EVENING_SEND_TIME: "0 0 20 * * *"
