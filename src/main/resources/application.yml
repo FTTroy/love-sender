@@ -22,5 +22,5 @@ mail:
 
 scheduled:
   cron:
-    morning-time: 0 0 19 * * *
+    morning-time: ${MORNING_SEND_TIME}
     evening-time: ${EVENING_SEND_TIME}
