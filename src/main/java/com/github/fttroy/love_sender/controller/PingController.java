@@ -14,7 +14,8 @@ import java.time.ZonedDateTime;
 public class PingController {
 
     @GetMapping("/")
-    public void ping() {
+    public int ping() {
         log.info("pinged at {}", ZonedDateTime.now(ZoneId.of("Europe/Rome")).toLocalDateTime());
+        return 1;
     }
 }
